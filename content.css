@@ -11,3 +11,6 @@
 	background: #ff0000;
 	color: #ffffff;
 }
+.bullshit:not(:hover) .bullshit-label > span {
+	font-weight: bold;
+}

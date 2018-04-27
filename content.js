@@ -72,7 +72,7 @@
 				return
 			}
 			$tweet.addClass('bullshit')
-			let html = '💩 ' + s.map((entry) => {
+			let html = '<span>bullshit</span> ' + s.map((entry) => {
 				return `${entry.score} × ${entry.weight}<sub>${entry.type}</sub>`
 			}).join(' + ') + ` = ${Math.round(b, 2)} and ${Math.round(b, 2)} > ${THRESHOLD}`
 			let $bullshitLabels = $('<div>').addClass('bullshit-label').html(html).prependTo($tweet)
