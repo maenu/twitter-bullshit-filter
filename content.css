@@ -1,0 +1,13 @@
+.bullshit:not(:hover) .context, .bullshit:not(:hover) .content {
+	display: none;
+}
+.bullshit:hover .bullshit-label {
+	display: none;
+}
+.bullshit:not(:hover) .bullshit-label {
+	display: inline-block;
+	padding: 0.5em;
+	border-radius: 15px;
+	background: #ff0000;
+	color: #ffffff;
+}
